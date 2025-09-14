@@ -49,9 +49,13 @@ export function LoadingScreen({ onComplete }: LoadingScreenProps) {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ delay: 0.3, duration: 0.5 }}
-              className="absolute inset-0 flex items-center justify-center"
+              className="absolute inset-2 rounded-full overflow-hidden"
             >
-              <div className="w-8 h-8 bg-primary rounded-full animate-pulse" />
+              <img 
+                src="/shubham-photo.png" 
+                alt="Shubham Pawar" 
+                className="w-full h-full object-cover"
+              />
             </motion.div>
           </div>
         </motion.div>

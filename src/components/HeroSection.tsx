@@ -46,8 +46,12 @@ export function HeroSection() {
             transition={{ delay: 0.2, duration: 0.5, type: "spring" }}
             className="w-32 h-32 mx-auto mb-8 relative"
           >
-            <div className="w-full h-full bg-gradient-to-br from-primary to-primary-600 rounded-full flex items-center justify-center shadow-2xl animate-glow">
-              <Smartphone className="w-16 h-16 text-white" />
+            <div className="w-full h-full rounded-full overflow-hidden shadow-2xl animate-glow border-4 border-primary/20">
+              <img 
+                src="/shubham-photo.png" 
+                alt="Shubham Pawar" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <motion.div
               animate={{ rotate: 360 }}
