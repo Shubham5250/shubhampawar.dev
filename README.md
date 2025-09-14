@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Shubham Pawar - Portfolio Coming Soon
 
-## Getting Started
+A stunning, animated "Coming Soon" landing page for a Mobile Developer's portfolio website.
 
-First, run the development server:
+## 🚀 Features
+
+- **Modern Design**: Clean, professional design with smooth animations
+- **Dark/Light Theme**: Toggle between light and dark themes with smooth transitions
+- **Responsive**: Fully responsive design that works on all devices
+- **Animations**: Beautiful loading screen and page animations using Framer Motion
+- **Custom Color Scheme**: Uses your specified color `rgb(3, 157, 252)` as the primary theme
+- **Skills Showcase**: Highlights your expertise in Flutter, Android, Java, and Backend development
+
+## 🛠️ Tech Stack
+
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **Lucide React** - Beautiful icons
+- **next-themes** - Theme management
+
+## 🎨 Design Features
+
+- **Loading Screen**: Animated loading screen with progress bar
+- **Hero Section**: Eye-catching hero with floating elements and skill cards
+- **Theme Toggle**: Smooth theme switching with animated icons
+- **Social Links**: Footer with social media links
+- **Custom Animations**: Floating elements, hover effects, and smooth transitions
+
+## 🚀 Getting Started
+
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+3. **Open your browser** and navigate to `http://localhost:3000`
+
+## 📱 Responsive Design
+
+The website is fully responsive and optimized for:
+- Desktop (1200px+)
+- Tablet (768px - 1199px)
+- Mobile (320px - 767px)
+
+## 🎯 Customization
+
+### Colors
+The primary color `#039dfc` (rgb(3, 157, 252)) is used throughout the design. You can customize it in:
+- `tailwind.config.ts` - Primary color palette
+- `src/app/globals.css` - CSS custom properties
+
+### Content
+Update the following files to customize content:
+- `src/components/HeroSection.tsx` - Main hero content
+- `src/components/Footer.tsx` - Social links and footer content
+- `src/app/layout.tsx` - Meta tags and SEO
+
+### Animations
+Customize animations in:
+- `tailwind.config.ts` - Animation keyframes
+- Component files - Framer Motion animations
+
+## 📦 Build for Production
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Features in Detail
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Loading Screen
+- Animated progress bar
+- Rotating loading indicator
+- Smooth fade-out transition
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Hero Section
+- Gradient text effects
+- Floating background elements
+- Skill cards with hover animations
+- Call-to-action buttons
 
-## Learn More
+### Theme System
+- System preference detection
+- Smooth theme transitions
+- Custom color variables
+- Persistent theme selection
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is open source and available under the [MIT License](LICENSE).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Built with ❤️ by Shubham Pawar**
