@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Smartphone, Code, Database, Coffee } from 'lucide-react';
+import { Smartphone, Code, Database } from 'lucide-react';
 import { useTheme } from 'next-themes';
 
 const skills = [
@@ -172,7 +172,7 @@ export function HeroSection() {
             </span>
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-6 sm:mb-8">
-            I'm crafting something amazing! My portfolio website is under construction, 
+            I&apos;m crafting something amazing! My portfolio website is under construction, 
             showcasing my expertise in mobile development and backend engineering.
           </p>
         </motion.div>
