@@ -34,6 +34,8 @@ const config: Config = {
         'pulse-slow': 'pulse 3s infinite',
         'float': 'float 3s ease-in-out infinite',
         'glow': 'glow 2s ease-in-out infinite alternate',
+        'shimmer': 'shimmer 2s ease-in-out infinite',
+        'orbit': 'orbit 8s linear infinite',
       },
       keyframes: {
         fadeIn: {
@@ -59,6 +61,14 @@ const config: Config = {
         glow: {
           '0%': { boxShadow: '0 0 5px rgba(3, 157, 252, 0.5)' },
           '100%': { boxShadow: '0 0 20px rgba(3, 157, 252, 0.8)' },
+        },
+        shimmer: {
+          '0%': { backgroundPosition: '-200% 0' },
+          '100%': { backgroundPosition: '200% 0' },
+        },
+        orbit: {
+          '0%': { transform: 'rotate(0deg) translateX(60px) rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg) translateX(60px) rotate(-360deg)' },
         },
       },
     },
