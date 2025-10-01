@@ -11,16 +11,16 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          200: '#bae6fd',
-          300: '#7dd3fc',
-          400: '#38bdf8',
-          500: '#039dfc', // Your custom color: rgb(3, 157, 252)
-          600: '#0284c7',
-          700: '#0369a1',
-          800: '#075985',
-          900: '#0c4a6e',
+          50: '#e6faf5',
+          100: '#b3f0e0',
+          200: '#80e6cb',
+          300: '#4ddcb6',
+          400: '#1ad2a1',
+          500: '#11c299', // Your custom teal color
+          600: '#0e9b7a',
+          700: '#0a745b',
+          800: '#074d3d',
+          900: '#03261e',
         },
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -59,8 +59,8 @@ const config: Config = {
           '50%': { transform: 'translateY(-10px)' },
         },
         glow: {
-          '0%': { boxShadow: '0 0 5px rgba(3, 157, 252, 0.5)' },
-          '100%': { boxShadow: '0 0 20px rgba(3, 157, 252, 0.8)' },
+          '0%': { boxShadow: '0 0 5px rgba(17, 194, 153, 0.5)' },
+          '100%': { boxShadow: '0 0 20px rgba(17, 194, 153, 0.8)' },
         },
         shimmer: {
           '0%': { backgroundPosition: '-200% 0' },

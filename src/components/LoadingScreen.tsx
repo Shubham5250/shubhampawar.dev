@@ -52,7 +52,7 @@ export function LoadingScreen({ onComplete }: LoadingScreenProps) {
               className="absolute inset-2 rounded-full overflow-hidden"
             >
               <img 
-                src="/shubham-photo.png" 
+                src="/my_image.png" 
                 alt="Shubham Pawar" 
                 className="w-full h-full object-cover"
               />
